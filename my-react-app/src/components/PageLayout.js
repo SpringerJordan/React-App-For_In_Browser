@@ -70,7 +70,7 @@ export default function PageLayout() {
               <LockOutlinedIcon />
             </Avatar> */}
             <Typography component="h1" variant="h5">
-              Sign in
+              Sign in! Right now!
             </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
               <TextField
@@ -78,7 +78,7 @@ export default function PageLayout() {
                 required
                 fullWidth
                 id="email"
-                label="Email Address"
+                label="Email Address Here"
                 name="email"
                 autoComplete="email"
                 autoFocus
@@ -88,7 +88,7 @@ export default function PageLayout() {
                 required
                 fullWidth
                 name="password"
-                label="Password"
+                label="Password Here"
                 type="password"
                 id="password"
                 autoComplete="current-password"
@@ -103,7 +103,7 @@ export default function PageLayout() {
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                Sign In
+                Sign In!
               </Button>
               <Grid container>
                 <Grid item xs>
@@ -113,7 +113,7 @@ export default function PageLayout() {
                 </Grid>
                 <Grid item>
                   <Link href="#" variant="body2">
-                    {"Don't have an account? Sign Up"}
+                    {"Don't have an account? Why not? Sign Up"}
                   </Link>
                 </Grid>
               </Grid>
